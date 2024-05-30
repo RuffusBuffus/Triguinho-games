@@ -1,0 +1,147 @@
+@font-face {
+    font-family: LosBanditos;
+    src: url(./Fontes/IFC\ LOS\ BANDITOS.ttf);
+}
+@font-face {
+    font-family: WW;
+    src: url(./Fontes/ColderWeather-Regular.ttf);
+}
+@font-face {
+    font-family: Kiryu;
+    src: url(./Fontes/edosz.ttf);
+}
+@font-face {
+    font-family: GB;
+    src: url(./Fontes/Gotham-Bold.otf);
+}
+@font-face {
+    font-family: GL;
+    src: url(./Fontes/GothamLight.ttf);
+}
+
+:root{
+    --pbg-color: rgb(15, 25, 35);
+    --sbg-color: rgb(168, 30, 53);
+    --text-color: white;
+    --butao-color: gold;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+background-color: var(--sbg-color);
+text-align: center;
+}
+.header img{
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    align-items: right;
+    border: 5px solid black;
+    border-radius: 50%;
+}
+.navbar{
+    display: flex;
+    justify-content: center; 
+    gap: 4rem;
+    padding: 2%;
+}
+
+.navbar a {
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: underline;
+    color: var(--butao-color);
+    font-family: LosBanditos;
+}
+section{
+
+    background-color:var(--pbg-color);
+    text-align: center;
+    color: var(--text-color);
+    margin: 0;
+    padding: 2%;
+}
+h1{
+    font-size: 3rem;
+    font-family: WW;
+    letter-spacing: 0.5rem;
+}
+p{
+    font-size: 1.5rem;
+    font-family: GL;
+}
+h2{
+    font-family: GB;
+    text-decoration: underline;
+}
+img{
+    height: 25rem;
+}
+.footer{
+    background-color: var(--sbg-color);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    flex-direction: column;
+}
+.social-icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+.social-icons h2{
+    font-size: 3rem;
+    text-align: center;
+    display: flex;
+    color: var(--butao-color);
+    text-decoration: underline;
+    margin-right: 5rem;
+    font-family: Kiryu;
+}
+.social-icons a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4.5rem;
+    height: 4.5rem;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 50%;
+    color: var(--butao-color);
+    flex-direction: column;
+}
+.social-icons a i{
+    font-size: 2.5rem;
+}
+.icon-group{
+    display: flex;
+    gap: 10px;
+}
+.sbr p{
+    text-align: left;
+}
+.sbr h2{
+    text-align: left;
+    margin-top: 5rem;
+}
+.sbr a{
+    color: var(--text-color);
+}
+.prf{
+    display: flex;
+    align-items: center;
+}
+.prf-img{
+    height: 250px;
+    width: auto;
+    align-items: normal;
+    border: 2px solid var(--butao-color);
+    border-radius: 100%;
+}
